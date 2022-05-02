@@ -35,7 +35,8 @@ public final class Tools {
 		ResourceLoader.loadResources();
 		
 		Map<Long, String> map;
-		try (InputStreamReader fileReader = new InputStreamReader(new FileInputStream(Utils.toFilePath(Grasscutter.getConfig().RESOURCE_FOLDER + "TextMap/TextMapEN.json")), StandardCharsets.UTF_8)) {
+		//修改为中文
+		try (InputStreamReader fileReader = new InputStreamReader(new FileInputStream(Utils.toFilePath(Grasscutter.getConfig().RESOURCE_FOLDER + "TextMap/TextMapCHS.json")), StandardCharsets.UTF_8)) {
 			map = Grasscutter.getGsonFactory().fromJson(fileReader, new TypeToken<Map<Long, String>>() {}.getType());
 		}
 		
