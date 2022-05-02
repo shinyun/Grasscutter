@@ -22,10 +22,12 @@
 		"titlePath": "UI_GACHA_SHOW_PANEL_A048_TITLE",
 		"costItem": 223,
 		"beginTime": 0,
+		"softPity": 1,
+		"hardPity": 2,
 		"endTime": 1924992000,
 		"sortId": 9998,
 		"maxItemType": 1,
-		"rateUpItems1": [1002],
+		"rateUpItems1": [1002,1022,1026,1030,1033,1037,1038,1046,1047,1049,1051,1052,1054,1057,1058,1062,1063,1066],
 		"rateUpItems2": [1053, 1020, 1045]
 	},
 	{
@@ -41,9 +43,9 @@
 		"sortId": 9997,
 		"minItemType": 2,
 		"eventChance": 75,
-		"softPity": 80,
-		"hardPity": 80,
-		"rateUpItems1": [11509, 12504],
+		"softPity": 1,
+		"hardPity": 2,
+		"rateUpItems1": [11509, 12504,11503,11502,12416,12501,12502,12503,13501,13502,13504,13505,13507,13509,14506,15501,15502,15503,15507,15509,15416],
 		"rateUpItems2": [11401, 12402, 13407, 14401, 15401]
 	}
 ]

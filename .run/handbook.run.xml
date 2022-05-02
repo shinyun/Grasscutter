@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="handbook" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="emu.grasscutter.Grasscutter" />
+    <module name="Grasscutter.main" />
+    <option name="PROGRAM_PARAMETERS" value="-handbook" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="emu.grasscutter.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

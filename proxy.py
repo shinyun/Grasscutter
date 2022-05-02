@@ -64,6 +64,7 @@ class MlgmXyysd_Genshin_Impact_Proxy:
 
     def request(self, flow: http.HTTPFlow) -> None:
         if flow.request.host in self.LIST_DOMAINS:
+            print(flow.request)
             if USE_SSL:
                 flow.request.scheme = "https"
             else:
